@@ -5,7 +5,7 @@ import { stagger } from "../../animations";
 import Button from "../../components/Button";
 import Cursor from "../../components/Cursor";
 import Header from "../../components/Header";
-import data from "../../data/portfolio.json";
+import data from "../../data/test.json";
 import { ISOToDate, useIsomorphicLayoutEffect } from "../../utils";
 import { getAllPosts } from "../../utils/api";
 const Blog = ({ posts }) => {

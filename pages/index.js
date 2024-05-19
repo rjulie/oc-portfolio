@@ -12,7 +12,7 @@ import Link from "next/link";
 import Cursor from "../components/Cursor";
 
 // Local Data
-import data from "../data/portfolio.json";
+import data from "../data/test.json";
 
 export default function Home() {
   // Ref
