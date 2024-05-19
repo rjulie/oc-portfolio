@@ -23,42 +23,23 @@ const Cursor = () => {
   return (
     <>
       {mount && (
-        // <CustomCursor
-        //   targets={[".link"]}
-        //   customClass="custom-cursor"
-        //   dimensions={30}
-        //   fill={getCusomColor()}
-        //   smoothness={{
-        //     movement: 0.2,
-        //     scale: 0.1,
-        //     opacity: 0.2,
-        //   }}
-        //   targetOpacity={0.5}
-        //   targetScale={2}
-        // />
-
-        <AnimatedCursor
-          innerSize={8}
-          outerSize={8}
-          color={getCusomColor()}
-          outerAlpha={0.2}
-          innerScale={0.7}
-          outerScale={5}
-          clickables={[
-            'a',
-            'input[type="text"]',
-            'input[type="email"]',
-            'input[type="number"]',
-            'input[type="submit"]',
-            'input[type="image"]',
-            'label[for]',
-            'select',
-            'textarea',
-            'button',
-            '.link'
-          ]}
-        />
-
+          <AnimatedCursor
+            innerStyle={{
+              backgroundColor: '#cdb4db'
+            }}
+            // color='255, 255, 255'
+            color='255, 200, 221'
+            innerSize={10}
+            outerSize={10}
+            outerAlpha={0.2}
+            innerScale={1}
+            outerScale={5}
+            clickables={[
+              'a',
+              'button',
+              '.link'
+            ]}
+          />
 
       )}
     </>
