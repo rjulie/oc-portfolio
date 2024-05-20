@@ -17,7 +17,7 @@ const WorkCard = ({ img, name, description, content = null, issue = null, urlGit
       className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link"
     >
       <div
-        className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto media-workcard"
+        className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 media-workcard"
         style={{ maxHeight: "600px" }}
       >
         <img
