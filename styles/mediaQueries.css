@@ -1,0 +1,24 @@
+
+@media (max-width: 425px) {
+  .media-workcard {
+    height: 320px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .media-workcard {
+    height: 460px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .media-workcard {
+    height: 520px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .media-workcard {
+    height: 600px;
+  }
+}
