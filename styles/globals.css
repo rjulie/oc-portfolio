@@ -5,6 +5,9 @@
 @import "./markdown.css";
 @import "./mediaQueries.css";
 
+/* Components */
+@import "./components/workCard.css";
+
 
 * {
   font-family: "Hind";

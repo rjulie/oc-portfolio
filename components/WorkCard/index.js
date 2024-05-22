@@ -1,5 +1,7 @@
 import React from "react";
 import { useState } from "react";
+import Button from "../Button";
+import githubIcon from "../../public/images/github.svg";
 
 const WorkCard = ({ img, name, description, content = null, issue = null, skills = null, urlGithub = null }) => {
 
@@ -53,12 +55,16 @@ const WorkCard = ({ img, name, description, content = null, issue = null, skills
           ) : null}
           {skills ? (
             <div>
-            <div>Compétences acquises</div>
-            <div>{skills}</div>
+              <div>Compétences acquises</div>
+              <div>{skills}</div>
             </div>
           ) : null}
           {urlGithub ? (
-            <a>{urlGithub}</a>
+            <div className="flex justify-end">
+              <Button className="github-btn" onClick={() => window.open(urlGithub)}>
+                Logo
+              </Button>
+            </div>
           ) : null}
         </div>
       </div>
