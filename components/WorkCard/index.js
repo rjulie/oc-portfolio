@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Button from "../Button";
-import githubIcon from "../../public/images/github.svg";
+import Image from 'next/image';
 
 const WorkCard = ({ img, name, description, content = null, issue = null, skills = null, urlGithub = null }) => {
 
@@ -61,9 +60,7 @@ const WorkCard = ({ img, name, description, content = null, issue = null, skills
           ) : null}
           {urlGithub ? (
             <div className="flex justify-end">
-              <Button className="github-btn" onClick={() => window.open(urlGithub)}>
-                Logo
-              </Button>
+              <Image src="/images/github.svg" height={20} width={20} alt="logo Github" onClick={() => window.open(urlGithub)}/>
             </div>
           ) : null}
         </div>
