@@ -181,10 +181,10 @@ const Edit = () => {
               Services
             </Button>
             <Button
-              onClick={() => setCurrentTabs("ABOUT")}
-              type={currentTabs === "ABOUT" && "primary"}
+              onClick={() => setCurrentTabs("EDUCATION")}
+              type={currentTabs === "EDUCATION" && "primary"}
             >
-              About
+              Formation
             </Button>
             <Button
               onClick={() => setCurrentTabs("SOCIAL")}
@@ -485,13 +485,13 @@ const Edit = () => {
             </div>
           </>
         )}
-        {currentTabs === "ABOUT" && (
+        {currentTabs === "EDUCATION" && (
           <div className="mt-10">
-            <h1 className="text-2xl">About</h1>
+            <h1 className="text-2xl">Formation</h1>
             <textarea
               className="w-full h-96 mt-10 p-2 rounded-md shadow-md border"
-              value={data.aboutpara}
-              onChange={(e) => setData({ ...data, aboutpara: e.target.value })}
+              value={data.education}
+              onChange={(e) => setData({ ...data, education: e.target.value })}
             ></textarea>
           </div>
         )}

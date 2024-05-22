@@ -17,7 +17,7 @@ import data from "../data/test.json";
 export default function Home() {
   // Ref
   const workRef = useRef();
-  const aboutRef = useRef();
+  const educationRef = useRef();
   const textOne = useRef();
   const textTwo = useRef();
   const textThree = useRef();
@@ -32,9 +32,9 @@ export default function Home() {
     });
   };
 
-  const handleAboutScroll = () => {
+  const handleEducationScroll = () => {
     window.scrollTo({
-      top: aboutRef.current.offsetTop,
+      top: educationRef.current.offsetTop,
       left: 0,
       behavior: "smooth",
     });
@@ -61,7 +61,7 @@ export default function Home() {
       <div className="container mx-auto mb-10">
         <Header
           handleWorkScroll={handleWorkScroll}
-          handleAboutScroll={handleAboutScroll}
+          handleEducationScroll={handleEducationScroll}
         />
         <div className="laptop:mt-20 mt-10">
           <div className="mt-5">
@@ -105,6 +105,7 @@ export default function Home() {
                 description={project.description}
                 content={project.content}
                 issue={project.issue}
+                skills = {project.skills}
                 urlGithub={project.urlGithub}
               />
             ))}
@@ -131,11 +132,15 @@ export default function Home() {
             </Link>
           </div>
         )} */}
-        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
-          <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
-          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
-            {data.aboutpara}
-          </p>
+        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={educationRef}>
+          <h1 className="tablet:m-10 text-2xl text-bold">Formation.</h1>
+            <div>
+              {data.education.map((year, index) => (
+                    <div className="year-education tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5" key={index}>
+                      {year}
+                    </div>
+              ))}
+            </div>
         </div>
         <Footer />
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-const WorkCard = ({ img, name, description, content = null, issue = null, urlGithub = null }) => {
+const WorkCard = ({ img, name, description, content = null, issue = null, skills = null, urlGithub = null }) => {
 
   const [open, setOpen] = useState(false)
 
@@ -50,6 +50,12 @@ const WorkCard = ({ img, name, description, content = null, issue = null, urlGit
           ) : null}
           {issue ? (
             <p>{issue}</p>
+          ) : null}
+          {skills ? (
+            <div>
+            <div>Compétences acquises</div>
+            <div>{skills}</div>
+            </div>
           ) : null}
           {urlGithub ? (
             <a>{urlGithub}</a>
