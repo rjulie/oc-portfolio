@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Image from 'next/image';
+import Tags from "../Tags";
 
 const WorkCard = ({ img, name, description, content = null, issue = null, skills = null, urlGithub = null }) => {
 
@@ -52,17 +53,17 @@ const WorkCard = ({ img, name, description, content = null, issue = null, skills
           {issue ? (
             <p>{issue}</p>
           ) : null}
-          {skills ? (
-            <div>
-              <div>Compétences acquises</div>
-              <div>{skills}</div>
-            </div>
-          ) : null}
-          {urlGithub ? (
-            <div className="flex justify-end">
+
+          <div className="flex items-center justify-between py-2">
+            {skills ? (
+              <div>
+                <Tags tags={skills} className="flex flex-row"/>
+              </div>
+            ) : null}
+            {urlGithub ? (
               <Image src="/images/github.svg" height={20} width={20} alt="logo Github" onClick={() => window.open(urlGithub)}/>
-            </div>
-          ) : null}
+            ) : null}
+          </div>
         </div>
       </div>
     </div>

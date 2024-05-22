@@ -33,7 +33,7 @@
           "imageSrc": "projet-kasa.jpg",
           "content": "Kasa, une entreprise de location d’appartements entre particuliers. Stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Démarrage du projet React et développement de l’ensemble de l’application : composants React, routes React Router en suivant les maquettes Figma et les informations données.",
           "issue": "Découvrir un nouveau langage nécessite toute une phase d’apprentissage pour comprendre des nouvelles notions. React est un langage qui donne une grande liberté. Cela demande également beaucoup de rigueur. J’ai suivi les recommandations des conventions proposées pour comprendre comment structurer mon application en suivant l’architecture Modèle / Contrôleur / Route.",
-          "skills": "React. SCSS.",
+          "skills": ["React", "SCSS"],
           "urlGithub": "https://github.com/rjulie"
       },
       {
