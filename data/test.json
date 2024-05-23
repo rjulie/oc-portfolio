@@ -10,56 +10,73 @@
   "showResume": false,
   "socials": [
       {
-          "id": "1",
-          "title": "Github",
-          "link": "https://github.com/rjulie"
+        "id": "1",
+        "title": "Github",
+        "link": "https://github.com/rjulie"
       },
       {
-          "id": "2",
-          "title": "LinkedIn",
-          "link": "https://www.linkedin.com/in/juliereynal/"
+        "id": "2",
+        "title": "LinkedIn",
+        "link": "https://www.linkedin.com/in/juliereynal/"
       },
       {
-          "id": "5",
-          "title": "Email",
-          "link": "mailto:contact@juliereynal.com"
+        "id": "3",
+        "title": "Behance",
+        "link": "https://www.behance.net/juliereynal"
+      },
+      {
+        "id": "4",
+        "title": "Email",
+        "link": "mailto:contact@juliereynal.com"
       }
   ],
   "projects": [
       {
           "id": "1",
           "title": "Kasa",
-          "description": "Web Design",
+          "description": "Frontend",
           "imageSrc": "images/projet-kasa.jpg",
           "content": "Kasa, une entreprise de location d’appartements entre particuliers. Stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Démarrage du projet React et développement de l’ensemble de l’application : composants React, routes React Router en suivant les maquettes Figma et les informations données.",
           "issue": "Découvrir un nouveau langage nécessite toute une phase d’apprentissage pour comprendre des nouvelles notions. React est un langage qui donne une grande liberté. Cela demande également beaucoup de rigueur. J’ai suivi les recommandations des conventions proposées pour comprendre comment structurer mon application en suivant l’architecture Modèle / Contrôleur / Route.",
           "skills": ["React", "SCSS"],
-          "urlGithub": "https://github.com/rjulie"
+          "urlGithub": "https://github.com/rjulie/oc-kasa"
       },
       {
-          "id": "2",
-          "title": "Project Two",
-          "description": "Web Development",
-          "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60"
+        "id": "2",
+        "title": "Sophie Bluel",
+        "description": "Backend",
+        "imageSrc": "images/projet-sophie-bluel.jpg",
+        "content": "Conception du site portfolio d’une architecte d’intérieur pour une agence. Développement de la page de présentation des travaux de l'architecte, de la page de connexion de l'administrateur du site et de la modale permettant d'uploader de nouveaux médias.",
+        "issue": "L’API et sa documentation sont des éléments qui participe activement à la façon dont le code doit être conçu. C’est lors d’une problématique liée au formulaire pour poster un nouvel élément que j’ai compris les relations de dépendances entre l’API, la façon dont elle est conçue et le code que je dois concevoir. Une fois que j’ai compris l’importance de la documentation, j’ai pu envoyer les informations attendues à l ‘API et enregistrer de nouveaux travaux. Ce projet Javascript qui m’a permis de concevoir un projet dans ce langage avec beaucoup de complétude : fetch, template literals, formData, innerHTML…",
+        "skills": ["Javascript", "Postman", "API REST"],
+        "urlGithub": "https://github.com/rjulie/oc-portfolio-architecte-sophie-bluel"
       },
       {
-          "id": "3",
-          "title": "Project Three",
-          "description": "Design",
-          "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60"
+        "id": "3",
+        "title": "Mon Vieux Grimoire",
+        "description": "Backend",
+        "imageSrc": "images/projet-mon-vieux-grimoire.jpg",
+        "content": "Projet d’une chaîne de librairies souhaitant ouvrir un site de référencement et de notation de livres : Mon Vieux Grimoire. L’application web est composée de 4 pages. Développement de la partie backend avec Node.js, Express et MongoDB.",
+        "issue": "Concevoir la partie backend avec Node.js invite à appréhender des nouvelles notions par rapport à la conception d’une application frontend. Pour ce projet, j’ai pu appréhender les notions liées au CRUD (Create. Read. Update. Delete) et au pattern MVC (Model. View. Controller).",
+        "skills": ["Express", "MongoDB", "Node.js", "API REST"],
+        "urlGithub": "https://github.com/rjulie/oc-mon-vieux-grimoire"
       },
       {
-          "id": "4",
-          "title": "Project Four",
-          "description": "Marketing",
-          "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60"
+        "id": "4",
+        "title": "Sitcom",
+        "description": "Fullstack",
+        "imageSrc": "images/projet-sitcom.jpg",
+        "content": "Application mobile permettant de découvrir des séries recommandées par ses amis. Projet réalisé en collaboration avec Sidney Ouarzazi, Clément Peyrat, Canelle Deguitre.",
+        "issue": "Concevoir la partie backend avec Node.js invite à appréhender des nouvelles notions par rapport à la conception d’une application frontend. Pour ce projet, j’ai pu appréhender les notions liées au CRUD (Create. Read. Update. Delete) et au pattern MVC (Model. View. Controller).",
+        "skills": ["Ruby on Rails", "Ruby", "PostgreSQL", "Heroku", "Javascript"],
+        "urlGithub": " https://github.com/SidneyOuarzazi/sitcom"
       }
   ],
   "services": [
       {
           "id": "1",
           "title": "Web Design.",
-          "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+          "description": "Mon expérience de graphiste me permet de proposer également des missions de web Design."
       },
       {
           "id": "2",
@@ -77,47 +94,14 @@
           "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
       }
   ],
-  "education": ["OpenClassrooms Programme Développeur Web. 2024.", "Le Wagon Développeur Web Fullstack. 2022"],
+  "education": ["OpenClassrooms Programme Développeur Web. 2024", "Le Wagon Développeur Web Fullstack. 2022"],
   "resume": {
-      "tagline": "👋  I'm a software engineer, product designer.",
-      "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
-      "experiences": [
-          {
-              "id": "1",
-              "dates": "March 2022 - Present",
-              "type": "Full Time",
-              "position": "Frontend Engineer at X",
-              "bullets": "Bullet One, Bullet Two"
-          },
-          {
-              "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
-              "dates": "July 2020 - March 2022",
-              "type": "Full Time",
-              "position": "Frontend Engineer at X",
-              "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
-          }
-      ],
-      "education": {
-          "universityName": "University X",
-          "universityDate": "2016-2020",
-          "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-      },
-      "languages": [
-          "Javascript",
-          "HTML5",
-          "CSS",
-          "Python",
-          "Go"
-      ],
-      "frameworks": [
-          "React",
-          "Typescript",
-          "NodeJs"
-      ],
-      "others": [
-          "Figma",
-          "AdobeXD",
-          "AWS"
-      ]
+      "tagline": "",
+      "description": "",
+      "experiences": [],
+      "education": {},
+      "languages": [],
+      "frameworks": [],
+      "others": []
   }
 }
