@@ -6,8 +6,8 @@ import Tags from "../Tags";
 
 const WorkCard = ({ img, name, description, content = null, issue = null, skills = null, urlGithub = null }) => {
 
+  const { theme } = useTheme();
   const [open, setOpen] = useState(false)
-    const { theme } = useTheme();
 
   const toggle = () => {
     if (open) {
@@ -35,28 +35,28 @@ const WorkCard = ({ img, name, description, content = null, issue = null, skills
           <h2 className="mt-5 text-3xl font-medium">
             {name ? name : "Project Name"}
           </h2>
-          <h3 className="text-xl opacity-50">
+          <h3 className="text-xl text-gray-500">
             {description ? description : "Description"}
           </h3>
         </div>
         <span>
           {open ? (
-            <div onClick={() => toggle()} className="text-5xl">-</div>
+            <div onClick={() => toggle()} className="text-5xl collapse-icon">-</div>
           ) : (
-            <div onClick={() => toggle()} className="text-5xl">+</div>
+            <div onClick={() => toggle()} className="text-5xl collapse-icon">+</div>
           )}
         </span>
       </div>
       <div>
         <div className={open ? 'h-auto max-h-max ease-out' : 'h-0 max-h-0 overflow-hidden transition-all'}>
           {content ? (
-            <p>{content}</p>
+            <p className="mt-4 media-content">{content}</p>
           ) : null}
           {issue ? (
-            <p>{issue}</p>
+            <p className="mt-2 media-issue">{issue}</p>
           ) : null}
 
-          <div className="flex items-center justify-between py-2">
+          <div className="flex items-center justify-between py-2 my-4">
             {skills ? (
               <div>
                 <Tags tags={skills} className="flex flex-row"/>

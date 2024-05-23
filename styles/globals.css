@@ -1,16 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;700&display=swap");
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+/* Tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Utilities */
 @import "./markdown.css";
 @import "./mediaQueries.css";
 
 /* Components */
 @import "./components/workCard.css";
 
-
+/* General */
 * {
-  font-family: "Hind";
+  font-family: "Hind", sans-serif;
 }
 
 body {
