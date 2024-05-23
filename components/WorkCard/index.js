@@ -1,11 +1,13 @@
 import React from "react";
 import { useState } from "react";
+import { useTheme } from "next-themes";
 import Image from 'next/image';
 import Tags from "../Tags";
 
 const WorkCard = ({ img, name, description, content = null, issue = null, skills = null, urlGithub = null }) => {
 
   const [open, setOpen] = useState(false)
+    const { theme } = useTheme();
 
   const toggle = () => {
     if (open) {
@@ -61,7 +63,7 @@ const WorkCard = ({ img, name, description, content = null, issue = null, skills
               </div>
             ) : null}
             {urlGithub ? (
-              <Image src="/images/github.svg" height={20} width={20} alt="logo Github" onClick={() => window.open(urlGithub)}/>
+              <Image src={theme === "dark" ? "/images/github-white.svg" : "/images/github.svg"} height={20} width={20} alt="logo Github" onClick={() => window.open(urlGithub)}/>
             ) : null}
           </div>
         </div>
