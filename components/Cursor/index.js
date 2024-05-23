@@ -27,7 +27,6 @@ const Cursor = () => {
             innerStyle={{
               backgroundColor: '#cdb4db'
             }}
-            // color='255, 255, 255'
             color='255, 200, 221'
             innerSize={10}
             outerSize={10}
