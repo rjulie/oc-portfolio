@@ -21,4 +21,8 @@
   .media-workcard {
     height: 600px;
   }
+
+  .media-container-workcard {
+    max-width: 1100px;
+  }
 }

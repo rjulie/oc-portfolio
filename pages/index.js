@@ -7,8 +7,6 @@ import { useIsomorphicLayoutEffect } from "../utils";
 import { stagger } from "../animations";
 import Footer from "../components/Footer";
 import Head from "next/head";
-import Button from "../components/Button";
-import Link from "next/link";
 import Cursor from "../components/Cursor";
 
 // Local Data
@@ -94,21 +92,23 @@ export default function Home() {
           <Socials className="mt-2 laptop:mt-5" />
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
-          <h1 className="text-2xl text-bold">Work.</h1>
+          <h1 className="text-2xl text-bold">Projets.</h1>
 
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-1 gap-4">
-            {data.projects.map((project) => (
-              <WorkCard
-                key={project.id}
-                img={project.imageSrc}
-                name={project.title}
-                description={project.description}
-                content={project.content}
-                issue={project.issue}
-                skills = {project.skills}
-                urlGithub={project.urlGithub}
-              />
-            ))}
+            <div className="flex flex flex-col items-center">
+              {data.projects.map((project) => (
+                <WorkCard
+                  key={project.id}
+                  img={project.imageSrc}
+                  name={project.title}
+                  description={project.description}
+                  content={project.content}
+                  issue={project.issue}
+                  skills={project.skills}
+                  urlGithub={project.urlGithub}
+                />
+              ))}
+            </div>
           </div>
         </div>
 
@@ -124,21 +124,13 @@ export default function Home() {
             ))}
           </div>
         </div>
-        {/* This button should not go into production */}
-        {/* {process.env.NODE_ENV === "development" && (
-          <div className="fixed bottom-5 right-5">
-            <Link href="/edit">
-              <Button type="primary">Edit Data</Button>
-            </Link>
-          </div>
-        )} */}
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={educationRef}>
           <h1 className="tablet:m-10 text-2xl text-bold">Formation.</h1>
             <div>
               {data.education.map((year, index) => (
-                    <div className="year-education tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5" key={index}>
-                      {year}
-                    </div>
+                <div className="year-education tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5" key={index}>
+                  {year}
+                </div>
               ))}
             </div>
         </div>

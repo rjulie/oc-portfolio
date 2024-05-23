@@ -16,7 +16,7 @@ const WorkCard = ({ img, name, description, content = null, issue = null, skills
 
   return (
     <div
-      className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link"
+      className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link media-container-workcard"
     >
       <div
         className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 media-workcard"
