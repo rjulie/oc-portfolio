@@ -67,7 +67,6 @@ export default function Home() {
           type="image/<generated>"
           sizes="<generated>"
         />
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
       </Head>
 
       <div className="gradient-circle"></div>
