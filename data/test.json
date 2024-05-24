@@ -47,7 +47,7 @@
         "description": "Backend",
         "imageSrc": "images/projet-sophie-bluel.jpg",
         "content": "Conception du site portfolio d’une architecte d’intérieur pour une agence. Développement de la page de présentation des travaux de l'architecte, de la page de connexion de l'administrateur du site et de la modale permettant d'uploader de nouveaux médias.",
-        "issue": "L’API et sa documentation sont des éléments qui participe activement à la façon dont le code doit être conçu. C’est lors d’une problématique liée au formulaire pour poster un nouvel élément que j’ai compris les relations de dépendances entre l’API, la façon dont elle est conçue et le code que je dois concevoir. Une fois que j’ai compris l’importance de la documentation, j’ai pu envoyer les informations attendues à l ‘API et enregistrer de nouveaux travaux. Ce projet Javascript qui m’a permis de concevoir un projet dans ce langage avec beaucoup de complétude : fetch, template literals, formData, innerHTML…",
+        "issue": "L’API et sa documentation sont des éléments qui participent activement à la façon dont le code doit être conçu. C’est lors d’une problématique liée au formulaire pour poster un nouvel élément que j’ai compris les relations de dépendances entre l’API, la façon dont elle est conçue et le code que je dois concevoir. Une fois l’importance de cette documentation comprise, j’ai pu envoyer les informations attendues à l‘API et enregistrer de nouveaux travaux. Ce projet Javascript m’a permis de concevoir un projet avec beaucoup de complétude : fetch, template literals, formData, innerHTML…",
         "skills": ["Javascript", "Postman", "API REST"],
         "urlGithub": "https://github.com/rjulie/oc-portfolio-architecte-sophie-bluel"
       },
@@ -57,7 +57,7 @@
         "description": "Backend",
         "imageSrc": "images/projet-mon-vieux-grimoire.jpg",
         "content": "Projet d’une chaîne de librairies souhaitant ouvrir un site de référencement et de notation de livres : Mon Vieux Grimoire. L’application web est composée de 4 pages. Développement de la partie backend avec Node.js, Express et MongoDB.",
-        "issue": "Concevoir la partie backend avec Node.js invite à appréhender des nouvelles notions par rapport à la conception d’une application frontend. Pour ce projet, j’ai pu appréhender les notions liées au CRUD (Create. Read. Update. Delete) et au pattern MVC (Model. View. Controller).",
+        "issue": "Concevoir la partie backend avec Node.js invite à appréhender des nouvelles notions par rapport à la conception d’une application frontend. Pour ce projet, j’ai pu appréhender les notions liées au CRUD (Create. Read. Update. Delete) et au pattern MVC (Model. View. Controller). Retrouver des correspondances avec le langage Ruby que j’utilise sur mon temps de travail pendant cette année d’alternance, m’a permis d’avancer avec une compréhension de chaque étape. J’ai pu trouver des parallèles sur beaucoup de sujets ou problématiques rencontrées : base de donnée, routes, contrôleurs.",
         "skills": ["Express", "MongoDB", "Node.js", "API REST"],
         "urlGithub": "https://github.com/rjulie/oc-mon-vieux-grimoire"
       },
@@ -67,7 +67,7 @@
         "description": "Fullstack",
         "imageSrc": "images/projet-sitcom.jpg",
         "content": "Application mobile permettant de découvrir des séries recommandées par ses amis. Projet réalisé en collaboration avec Sidney Ouarzazi, Clément Peyrat, Canelle Deguitre.",
-        "issue": "Concevoir la partie backend avec Node.js invite à appréhender des nouvelles notions par rapport à la conception d’une application frontend. Pour ce projet, j’ai pu appréhender les notions liées au CRUD (Create. Read. Update. Delete) et au pattern MVC (Model. View. Controller).",
+        "issue": "Nous avons pris de le temps de concevoir une maquette design sur Figma pour avoir un design cohérent sur toute l’application. Ainsi, chacun a pu développé ensuite des fonctionnalités complètes : frontend et backend. J’ai travaillé notamment sur la connexion utilisateur avec Facebook et sur une fonctionnalité permettant de proposer une série à regarder en se basant sur le meilleur score en fonction de ses amis.",
         "skills": ["Ruby on Rails", "Ruby", "PostgreSQL", "Heroku", "Javascript"],
         "urlGithub": " https://github.com/SidneyOuarzazi/sitcom"
       }
@@ -76,22 +76,22 @@
       {
           "id": "1",
           "title": "Web Design.",
-          "description": "Mon expérience de graphiste me permet de proposer également des missions de web Design."
+          "description": "Mon expérience en tant que graphiste me permet de concevoir les maquettes design des projets sur lesquels je suis amenée à travailler."
       },
       {
           "id": "2",
           "title": "Front-end.",
-          "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+          "description": "Mes derniers projets ont été réalisé avec des langages comme Javascript, React,  NextJS associés à du CSS, SCSS ou encore au framework Tailwind."
       },
       {
           "id": "3",
           "title": "Back-end.",
-          "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+          "description": "J’ai travaillé avec les langages Ruby associé au framework Ruby on Rails ou encore Node.js  sur plusieurs projets avec une architecture MVC."
       },
       {
           "id": "4",
           "title": "Database.",
-          "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+          "description": "En travaillant sur différents projets, j’ai pu utiliser différentes bases de données : MongoDB avec la base de données non relationnelle comme PostgreSQL avec une base de données relationnelle objet."
       }
   ],
   "education": ["OpenClassrooms Programme Développeur Web. 2024", "Le Wagon Développeur Web Fullstack. 2022"],
