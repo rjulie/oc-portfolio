@@ -30,7 +30,7 @@ const Header = ({ handleWorkScroll, handleEducationScroll, isBlog }) => {
                 {name}.
               </div>
 
-              <div className="flex items-center">
+              <div className="flex items-center gap-2">
                 {data.darkMode && (
                   <Button
                     onClick={() =>

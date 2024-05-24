@@ -20,7 +20,7 @@ const Footer = ({}) => {
           </div>
         </div>
       </div>
-      <div className="text-sm text-bold text-gray-300 mt-2 laptop:mt-10 p-2 laptop:p-0">
+      <div className="text-sm text-bold text-gray-500 mt-2 laptop:mt-10 p-2 laptop:p-0">
         Fait avec ❤. Template React développé par Chetan Verma et adapté, ajusté, modifié par Julie Reynal.
       </div>
     </>
