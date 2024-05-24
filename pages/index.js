@@ -60,6 +60,13 @@ export default function Home() {
         <meta property="og:title" content={data.ogTitle} key="title" />
         <meta property="og:description" content={data.ogDescription} />
         <meta property="og:image" content={data.ogImage} />
+
+        <link
+          rel="icon"
+          href={data.favicon}
+          type="image/<generated>"
+          sizes="<generated>"
+        />
       </Head>
 
       <div className="gradient-circle"></div>
