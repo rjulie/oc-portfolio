@@ -52,6 +52,7 @@ const WorkCard = ({ img, name, description, content = null, issue = null, skills
           {content ? (
             <p className="mt-4 media-content">{content}</p>
           ) : null}
+          <span className="text-2xl">.</span>
           {issue ? (
             <p className="mt-2 media-issue">{issue}</p>
           ) : null}
