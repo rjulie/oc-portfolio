@@ -24,11 +24,13 @@ const WorkCard = ({ img, name, description, content = null, issue = null, skills
         className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 media-workcard"
         style={{ maxHeight: "600px" }}
       >
-        <img
+        <Image
           alt={name}
           className="h-full w-full object-cover hover:scale-110 transition-all ease-out duration-300"
           src={img}
-        ></img>
+          layout='fill'
+          priority={true}
+        />
       </div>
       <div className="flex items-center justify-between">
         <div>
