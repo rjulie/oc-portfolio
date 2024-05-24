@@ -50,7 +50,16 @@ export default function Home() {
     <div className={`relative ${data.showCursor && "cursor-none"}`}>
       {data.showCursor && <Cursor />}
       <Head>
-        <title>{data.name}</title>
+        <title>{data.metaTitle}</title>
+        <meta name="description" content={data.metaDescription} />
+        <meta name="robots" content="index, follow" />
+
+        <meta property="og:site_name" content={data.headerTaglineTwo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={data.url} />
+        <meta property="og:title" content={data.ogTitle} key="title" />
+        <meta property="og:description" content={data.ogDescription} />
+        <meta property="og:image" content={data.ogImage} />
       </Head>
 
       <div className="gradient-circle"></div>

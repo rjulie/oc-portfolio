@@ -42,6 +42,7 @@ const Header = ({ handleWorkScroll, handleEducationScroll, isBlog }) => {
                       src={`/images/${
                         theme === "dark" ? "moon.svg" : "sun.svg"
                       }`}
+                      alt={ theme === "dark" ? "moon icon" : "sun icon" }
                     ></img>
                   </Button>
                 )}
@@ -58,6 +59,7 @@ const Header = ({ handleWorkScroll, handleEducationScroll, isBlog }) => {
                         ? "cancel.svg"
                         : "cancel-white.svg"
                     }`}
+                    alt={ theme === "dark" ? "menu icon" : "cancel icon" }
                   ></img>
                 </Popover.Button>
               </div>
@@ -155,6 +157,7 @@ const Header = ({ handleWorkScroll, handleEducationScroll, isBlog }) => {
                 <img
                   className="h-6"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                  alt={ theme === "dark" ? "moon icon" : "sun icon" }
                 ></img>
               </Button>
             )}
@@ -185,6 +188,7 @@ const Header = ({ handleWorkScroll, handleEducationScroll, isBlog }) => {
                 <img
                   className="h-6"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                  alt={ theme === "dark" ? "moon icon" : "sun icon" }
                 ></img>
               </Button>
             )}
