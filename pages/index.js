@@ -82,34 +82,28 @@ export default function Home() {
           <div className="mt-5">
             <h1
               ref={textOne}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
+              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
             >
               {data.headerTaglineOne}
             </h1>
-            <h1
+            <h2
               ref={textTwo}
               className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
             >
               {data.headerTaglineTwo}
-            </h1>
-            <h1
+            </h2>
+            <h2
               ref={textThree}
               className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
             >
               {data.headerTaglineThree}
-            </h1>
-            <h1
-              ref={textFour}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-            >
-              {data.headerTaglineFour}
-            </h1>
+            </h2>
           </div>
 
           <Socials className="mt-2 laptop:mt-5" />
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
-          <h1 className="text-2xl text-bold">Projets.</h1>
+          <h2 className="text-2xl text-bold">Projets.</h2>
 
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-1 gap-4">
             <div className="flex flex flex-col items-center">
@@ -130,7 +124,7 @@ export default function Home() {
         </div>
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
-          <h1 className="tablet:m-10 text-2xl text-bold">Services.</h1>
+          <h2 className="tablet:m-10 text-2xl text-bold">Services.</h2>
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
             {data.services.map((service, index) => (
               <ServiceCard
@@ -142,7 +136,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={educationRef}>
-          <h1 className="tablet:m-10 text-2xl text-bold">Formation.</h1>
+          <h2 className="tablet:m-10 text-2xl text-bold">Formation.</h2>
             <div>
               {data.education.map((year, index) => (
                 <div className="year-education tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5" key={index}>
