@@ -34,7 +34,7 @@ const WorkCard = ({ img, name, description, content = null, issue = null, skills
       </div>
       <div className="flex items-center justify-between">
         <div>
-          <h3 className="mt-5 text-3xl font-medium">
+          <h3 className="mt-5 text-2xl tablet:text-3xl font-medium">
             {name ? name : "Project Name"}
           </h3>
           <h4 className="text-xl text-gray-500">

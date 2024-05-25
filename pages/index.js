@@ -81,19 +81,19 @@ export default function Home() {
           <div className="mt-5">
             <h1
               ref={textOne}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+              className="text-5xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
             >
               {data.headerTaglineOne}
             </h1>
             <h2
               ref={textTwo}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+              className="text-5xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
             >
               {data.headerTaglineTwo}
             </h2>
             <h2
               ref={textThree}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+              className="text-5xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
             >
               {data.headerTaglineThree}
             </h2>
@@ -138,7 +138,7 @@ export default function Home() {
           <h2 className="tablet:m-10 text-2xl text-bold">Formation.</h2>
             <div>
               {data.education.map((year, index) => (
-                <div className="year-education tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5" key={index}>
+                <div className="year-education tablet:m-10 mt-2 text-2xl tablet:text-3xl w-full laptop:w-3/5" key={index}>
                   {year}
                 </div>
               ))}
