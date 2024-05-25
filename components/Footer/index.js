@@ -21,7 +21,7 @@ const Footer = ({}) => {
         </div>
       </div>
       <div className="text-sm text-bold text-gray-500 mt-2 laptop:mt-10 p-2 laptop:p-0">
-        Fait avec ❤. Template React développé par Chetan Verma et adapté, ajusté, modifié par Julie Reynal.
+        Fait avec ❤. Template React développé par Chetan Verma et adapté, ajusté, modifié par Julie Reynal. Projets mis en avant grâce aux mock-ups Pexels / Freepik(rezaazmy) / Graphicworld89.
       </div>
     </>
   );
